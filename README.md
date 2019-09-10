@@ -4,11 +4,11 @@ This repository contains code to deploy a Cloud Function on Google Cloud which w
 
 ## Steps for deploying/use
 
-1. Authenticate/set your projet using `gcloud`
+1. Authenticate/set your project using `gcloud`
 
 2. Deploy using `gcloud`:
 
-   gcloud beta functions deploy f5-decode --region=<REGION> --trigger-http --runtime python37 --entry-point cfn_entry 
+   `gcloud beta functions deploy f5-decode --region=<REGION> --trigger-http --runtime python37 --entry-point cfn_entry`
 
 3. Use:
 
