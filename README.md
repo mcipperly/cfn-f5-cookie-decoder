@@ -21,4 +21,6 @@ This repository contains code to deploy a Cloud Function on Google Cloud which w
 
 This incorporates some code written by dusty at https://penturalabs.wordpress.com/2011/03/29/how-to-decode-big-ip-f5-persistence-cookie-values/
 
-TODO: Passphrase encrypted cookies, maybe?
+TODO: 
+* Passphrase encrypted cookies, maybe?
+* Backwards - provide an IP to get stuck to a node
