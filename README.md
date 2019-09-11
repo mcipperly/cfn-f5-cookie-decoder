@@ -13,7 +13,7 @@ This repository contains code to deploy a Cloud Function on Google Cloud which w
 3. Use:
 
    ```
-   $ curl https://<REGION>-<PROJECT>.cloudfunctions.net/f5-decode
+   $ curl https://<REGION>-<PROJECT>.cloudfunctions.net/f5-decode?cookie=<YOUR_COOKIE_VALUE>
    {"status": "ok", "nodeinfo": "10.1.1.1:8080"}
    ```
 
